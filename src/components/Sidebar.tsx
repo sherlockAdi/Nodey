@@ -49,18 +49,18 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, activeSection, onSectionChang
       `}>
         <div className="flex flex-col h-full">
           {/* Quick Stats */}
-          {/* <div className="p-4 border-b border-gray-100">
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-3 rounded-lg">
-              <div className="flex items-center justify-between mb-2">
-                <span className="text-sm font-medium text-gray-700">Learning Streak</span>
-                <span className="text-sm font-bold text-orange-600">7 days</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Play className="w-4 h-4 text-green-500" />
-                <span className="text-xs text-gray-600">3 courses in progress</span>
-              </div>
-            </div>
-          </div> */}
+          <div className="p-4 border-b border-gray-100">
+            {/* <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-3 rounded-lg"> */}
+              {/* <div className="flex items-center justify-between mb-2"> */}
+                {/* <span className="text-sm font-medium text-gray-700">Learning Streak</span> */}
+                {/* <span className="text-sm font-bold text-orange-600">7 days</span> */}
+              {/* </div> */}
+              {/* <div className="flex items-center space-x-2"> */}
+                {/* <Play className="w-4 h-4 text-green-500" /> */}
+                {/* <span className="text-xs text-gray-600">3 courses in progress</span> */}
+              {/* </div> */}
+            {/* </div> */}
+          </div>
 
           {/* Navigation Menu */}
           <nav className="flex-1 p-4">

@@ -60,8 +60,9 @@ const Header: React.FC<HeaderProps> = ({ onMenuToggle, isSidebarOpen }) => {
               <User className="w-4 h-4 text-white" />
             </div>
             <div className="hidden md:block">
-              <p className="text-sm font-medium text-gray-700">John Doe</p>
-              <p className="text-xs text-gray-500">Developer</p>
+              <p className="text-sm font-medium text-gray-700">Created By </p>
+              <p className="text-xs text-gray-500">Aditya Kumar Dwivedi</p>
+              {/* <p className="text-xs text-gray-500">SDE</p> */}
             </div>
           </div>
         </div>

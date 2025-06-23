@@ -134,19 +134,19 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header onMenuToggle={handleMenuToggle} isSidebarOpen={isSidebarOpen} />
-      
-      <div className="flex">
-        <Sidebar
-          isOpen={isSidebarOpen}
-          activeSection={activeSection}
-          onSectionChange={handleSectionChange}
-        />
-        
-        <main className="flex-1">
-          <div className="max-w-7xl mx-auto">
-            {renderContent()}
-          </div>
-        </main>
+
+
+      <div className="flex h-screen ">
+      <Sidebar
+        isOpen={isSidebarOpen}
+        activeSection={activeSection}
+        onSectionChange={handleSectionChange}
+      />
+      <main className="flex-1 overflow-y-auto h-screen m-5 ml-64">
+        <div className="max-w-7xl mx-auto">
+          {renderContent()}
+        </div>
+      </main>
       </div>
     </div>
   );

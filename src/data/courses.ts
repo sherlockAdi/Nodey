@@ -196,17 +196,100 @@ export const courses: Course[] = [
 ];
 
 export const lessons: Lesson[] = [
-  // Sample lessons for nodejs-basics
   {
     id: 'nodejs-basics-1',
     title: 'What is Node.js and Why Use It?',
     courseId: 'nodejs-basics',
     duration: '15 min',
-    completed: true,
+    completed: false,
     description: 'Introduction to Node.js, its history, and core concepts',
     content: `
-## What is Node.js?
-Node.js is a runtime environment for executing JavaScript code outside of a browser.\n\n**Key Features:**\n- Event-driven\n- Non-blocking I/O\n- Built on Chrome's V8 engine\n\n\`\`\`js\nconsole.log('Hello from Node.js!');\n\`\`\`
+# 🟢 What is Node.js and Why Use It?
+
+> **Node.js** is a powerful, open-source runtime that lets you run JavaScript on the server, not just in the browser.
+
+
+---
+
+## 🚀 Quick Facts
+
+| Feature                | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Release Year**       | 2009                                                                        |
+| **Creator**            | Ryan Dahl                                                                   |
+| **Engine**             | Chrome V8 JavaScript Engine                                                 |
+| **Package Manager**    | npm (Node Package Manager)                                                  |
+| **Main Use**           | Building scalable, fast, and efficient server-side applications             |
+
+---
+
+## 🎯 Why Node.js?
+
+- **Unified Language:** Use JavaScript everywhere (front-end & back-end).
+- **Non-blocking I/O:** Handles many connections at once without waiting for slow operations.
+- **Event-driven:** Perfect for real-time apps (like chat, games, APIs).
+- **Massive Ecosystem:** Over 1 million npm packages for every need.
+
+---
+
+## 🧠 How Does Node.js Work?
+
+
+- **Single-threaded:** One main thread, but can handle thousands of connections.
+- **Event Loop:** Keeps checking for new work (like incoming requests or file reads).
+- **Asynchronous:** Uses callbacks, promises, or async/await to avoid blocking.
+
+---
+
+## 📦 npm: The Node Package Manager
+
+> **npm** is like an app store for Node.js code. It lets you install, update, and share code easily.
+
+\`\`\`bash
+npm install express
+\`\`\`
+
+---
+
+## 💡 Example: Your First Node.js Script
+
+\`\`\`js
+console.log('Hello from Node.js!');
+\`\`\`
+
+Save this as hello.js and run:
+
+\`\`\`
+node hello.js
+\`\`\`
+
+---
+
+## 🏗️ What Can You Build with Node.js?
+
+- Real-time chat apps (WhatsApp, Slack clones)
+- REST APIs and GraphQL APIs
+- Streaming servers (like Netflix)
+- Command-line tools
+- IoT and robotics
+
+---
+
+## 📝 Did You Know?
+
+> Node.js powers major companies like Netflix, LinkedIn, Uber, and PayPal!
+
+---
+
+## 🔑 Key Takeaways
+
+- Node.js lets you use JavaScript for server-side programming.
+- It is fast, scalable, and has a huge ecosystem.
+- Perfect for modern web, mobile, and IoT applications.
+
+---
+
+Ready to dive deeper? Let's get Node.js installed and start coding!
     `
   },
   {
@@ -214,25 +297,41 @@ Node.js is a runtime environment for executing JavaScript code outside of a brow
     title: 'Installing Node.js and Setting Up Development Environment',
     courseId: 'nodejs-basics',
     duration: '20 min',
-    completed: true,
+    completed: false,
     description: 'Step-by-step guide to install Node.js and set up your development environment',
     content: `
 ## Installing Node.js
-Download Node.js from the [official website](https://nodejs.org/).\n\n**Steps:**\n1. Download the installer\n2. Run the installer\n3. Verify installation with:\n\`\`\`bash\nnode -v\nnpm -v\n\`\`\`
+Download Node.js from the [official website](https://nodejs.org/).
+
+**Steps:**
+1. Download the installer
+2. Run the installer
+3. Verify installation:
+\`\`\`bash
+node -v
+npm -v
+\`\`\`
     `
   },
   {
-    id: 'nodejs-basics-3',
-    title: 'Understanding the Node.js REPL',
-    courseId: 'nodejs-basics',
-    duration: '12 min',
+    id: 'nodejs-basics-2',
+    title: 'Installing Node.js and Setting Up Development Environment',
+    courseId: 'nodejs-intermediate',
+    duration: '20 min',
     completed: false,
-    description: 'Hands-on practice with Node.js Read-Eval-Print Loop',
+    description: 'Step-by-step guide to install Node.js and set up your development environment',
     content: `
-## Node.js REPL
-REPL stands for Read-Eval-Print Loop. It is an interactive shell for Node.js.\n\n**Try it:**\n\`\`\`bash\nnode\n> 2 + 2\n4\n\`\`\`
+## Installing Node.js
+Download Node.js from the [official website](https://nodejs.org/).
+
+**Steps:**
+1. Download the installer
+2. Run the installer
+3. Verify installation:
+\`\`\`bash
+node -v
+npm -v
+\`\`\`
     `
-  }
-];
-
-
+  },
+]

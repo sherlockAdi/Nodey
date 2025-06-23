@@ -67,7 +67,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course, onClick }) => {
       </div>
 
       {/* Progress Bar */}
-      <div className="mb-4">
+      {/* <div className="mb-4">
         <div className="flex justify-between items-center mb-2">
           <span className="text-sm font-medium text-gray-700">Progress</span>
           <span className="text-sm font-bold text-blue-600">{course.progress}%</span>
@@ -78,7 +78,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course, onClick }) => {
             style={{ width: `${course.progress}%` }}
           ></div>
         </div>
-      </div>
+      </div> */}
 
       {/* Action Button */}
       <button className="w-full flex items-center justify-center space-x-2 bg-gradient-to-r from-gray-50 to-gray-100 hover:from-blue-50 hover:to-purple-50 text-gray-700 hover:text-blue-600 py-3 rounded-lg transition-all duration-200 group-hover:shadow-md">

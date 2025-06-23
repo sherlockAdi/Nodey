@@ -80,7 +80,7 @@ const CourseDetail: React.FC<CourseDetailProps> = ({ course, onBack, onLessonSel
         </div>
         
         {/* Progress Bar */}
-        {course.progress > 0 && (
+        {/* {course.progress > 0 && (
           <div className="mt-8">
             <div className="flex justify-between items-center mb-2">
               <span className="text-sm font-medium">Course Progress</span>
@@ -93,7 +93,7 @@ const CourseDetail: React.FC<CourseDetailProps> = ({ course, onBack, onLessonSel
               ></div>
             </div>
           </div>
-        )}
+        )} */}
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -185,7 +185,7 @@ const CourseDetail: React.FC<CourseDetailProps> = ({ course, onBack, onLessonSel
           </div>
 
           {/* Instructor */}
-          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+          {/* <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
             <h3 className="text-lg font-bold text-gray-900 mb-4">Instructor</h3>
             <div className="flex items-center space-x-4">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
@@ -200,7 +200,7 @@ const CourseDetail: React.FC<CourseDetailProps> = ({ course, onBack, onLessonSel
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
